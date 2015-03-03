@@ -1,0 +1,215 @@
+/*
+Theme Name: Commercial Interior Services
+Theme URI: http://inspyregroup.com
+Description: A Modular clean colorful custom theme designed to show off pictures and media.
+Author: Nicholas Koskowski, Inspyre Group
+Version: 1.0
+Tags: awesome
+*/
+
+* {box-sizing:border-box;}
+
+a {text-decoration: none;}
+
+img {max-width: 100%;}
+
+body {font-family: 'Source Sans Pro', sans-serif;}
+
+h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+h1 {font-size:48px;}
+h2 {font-size:44px;}
+h3 {font-size:40px;}
+h4 {font-size:36px;}
+h5 {font-size:34px;}
+h6 {font-size:30px;}
+
+p,input,label,li,span,input,textarea {font-size:16px;}
+i.fa {font-size:16px;}
+
+button,.btn,input[type=submit] {border:none; color:#fff; font-weight: bold; padding:10px 25px; border-radius:2px; font-size:20px; text-transform: uppercase; display: inline-block;}
+button.block,.btn.block,input[type=submit].block {margin-top: 10px; margin-bottom: 10px;}
+
+
+input[type=text],input[type=email],input[type=password],textarea {resize:none; width: 100%; padding:10px 20px; background-color: #eee; margin:5px 0px; border:1px solid #444;}
+textarea {min-height:170px;}
+
+a {color:#cf8b40;}
+
+
+/* Header */
+
+header {position:fixed; top:0px; left:0px; width: 100%; z-index: 9999;}
+header .dark-wrap {padding-top:4px; padding-bottom:4px;}
+header .dark-wrap .container {padding-top:2px; padding-bottom:2px;}
+
+header .colors {padding-top: 10px;}
+header .colors button {width: 50px; height: 50px; padding:0px; margin:0px; border:none; border-radius:0px; display: inline-block; margin-left: 5px; margin-right: 5px; }
+header .colors button.orange {background-color:#cf8b40;}
+header .colors button.blue {background-color:#669acc;}
+header .colors button.red {background-color: #92361d;}
+header .colors button.green {background-color:#757752;}
+header .colors button.yellow {background-color:#efc211;}
+header .colors button.tan {background-color:#ebcb92;}
+
+header .white-wrap {padding-bottom: 1px; padding-top: 1px;}
+header .white-wrap .border-wrap {border-color:#b8b8b8;}
+
+header nav ul {padding: 0px;}
+header nav ul li {display: inline-block; vertical-align: top; padding:10px 15px; text-transform: uppercase; font-weight: 500;}
+header nav ul li:first-of-type {padding-left: 0px;}
+header nav ul li a {color:#000; text-decoration: none;}
+
+header .social-media {padding-top: 10px; padding-bottom: 10px;}
+header .social-media i.fa {margin-left:10px; margin-right: 10px;}
+
+header .logo {height: 70px;}
+header .logo img {height: 100%; width: auto; float: left; margin-right: 15px;}
+header .logo h1 {display: block; color: #fff; font-size: 32px; text-decoration: none; margin-top: 15px; font-weight: 300;}
+header .logo a h1 {text-decoration: none;}
+
+/* Content */
+
+main {margin-top: 133px;}
+
+.slider {border-bottom: 1px solid #000; max-height: 720px; overflow: hidden;}
+.slider .slide {max-height: 720px;
+height: 720px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;}
+.slider .slide img {width: 100%;}
+.slider .slide .overlay {position: absolute;
+left: 0px;
+top: 0;
+background-color: rgba(255,255,255,0.95);
+padding: 100px 0 100px 340px;
+height: 720px;}
+.slider .slide .overlay .overlay-end {position: absolute; height: 100%; width: auto !important; top:0px; left:100%; opacity: 0.65;}
+.slider .slide .overlay:after {
+content: " ";
+position: absolute;
+height: auto;
+width: 0px;
+left: 100%;
+top: 0;
+border-right: 150px solid transparent;
+border-top: 380px solid rgba(255,255,255,.95);
+}
+.slidecontent-container {max-width: 500px;
+margin-right: -70px;
+margin-left: auto;}
+.slider .slide .overlay:before {
+content: " ";
+position: absolute;
+height: auto;
+width: 0px;
+left: 100%;
+bottom: 0;
+border-right: 130px solid transparent;
+border-bottom: 343px solid rgba(255,255,255,.95);
+}
+.slider .slide .overlay h2 {font-size: 45px;
+text-transform: uppercase;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bold;
+text-align: left;
+position: relative;
+z-index: 9;}
+.slider .slide .overlay h2 em {font-family: 'Source Sans Pro', sans-serif; font-weight: 100; font-style: italic; display: block;}
+.slider .slide .overlay button {}
+
+.slider .slide .overlay p {line-height:38px; font-size: 20px;;
+max-width: 365px;}
+
+
+.services, .products {padding-bottom: 20px; padding-top: 20px;}
+.services img, .products img {max-width:33.333%; height:180px; vertical-align:top; border:10px solid #f1f1f1; border-left:5px solid #f1f1f1; border-right:5px solid #f1f1f1; vertical-align: middle;}
+
+.services img:first-of-type {border-left: 10px solid #f1f1f1;}
+.services img:last-of-type {border-right: 10px solid #f1f1f1;}
+
+.services h3, .products h3 {font-size:26px;}
+.services .btn, .products .btn {font-size:18px;}
+
+.services .fourth, .products .fourth {border-right:1px solid #000;}
+.services .column, .products .column {padding:20px;}
+
+
+/* Catalog */
+.catalog .full {padding:20px 0px; text-align: center;}
+.catalog .full.talignleft {text-align: left;}
+.catalog .full.talignright {text-align: right;}
+
+.catalog .fourth.odd {border-right:1px solid #000;}
+.catalog .fourth.even {border-left:1px solid #000; border-right:none;}
+
+/* Page */
+
+.page {padding-top: 25px; padding-bottom: 25px;}
+.page h4 {border-bottom: 1px solid #444;}
+.page h4 .btn {vertical-align: middle; padding:15px; border-radius:0px; margin-right:15px;}
+.page h4 .btn i {font-size:36px;}
+
+/* Page - Contact */
+
+.contact-info li {list-style: none; padding-top:5px; padding-bottom:5px;}
+.contact-info li button {padding:25px 15px; display: block; width: 100%; border-radius: 0px;}
+.contact-info li button i {font-size: 36px;}
+
+
+/* Footer */
+
+footer {color: #131313;}
+footer .gray-wrap {padding:20px 0px;}
+footer .fa-envelope-o {font-size:172px; color:#747474;}
+footer p {font-size:18px; line-height:32px;}
+footer .dark-gray-wrap {padding-top: 10px; padding-bottom: 10px; text-transform: uppercase;}
+
+/* Systemic */
+
+.container {max-width: 1170px; margin-left: auto; margin-right: auto;padding-left: 20px;
+padding-right: 20px;}
+
+.talignleft {text-align: left;}
+.talignright {text-align: right;}
+.taligncenter {text-align: center;}
+
+.alignleft {float: left;}
+.alignright {float:right;}
+
+.block {display: block;}
+
+.dark-wrap {background-color: #000; color:#fff; border-color:#fff;}
+.white-wrap {background-color: #fff; color:#000;}
+.gray-wrap {background-color: #eee; color: #131313;}
+.dark-gray-wrap {background-color:#dadada; color:#111111;}
+
+.border-wrap {border-top:1px solid rgba(255, 255, 255, 0.35); border-bottom: 1px solid rgba(255, 255, 255, 0.35); padding-top:2px; padding-bottom: 2px;}
+
+.col-wrap {font-size:0;}
+.column {display: inline-block; vertical-align: top;}
+
+.full {width: 100%;}
+.half {width: 50%;}
+.three-fourths {width:75%;}
+.two-thirds {width: 66.666%;}
+.two-fifths {width: 40%;}
+.third {width: 33.333%;}
+.fourth {width: 25%;}
+
+.orange {background-color:#cf8b40;}
+.blue {background-color:#669acc;}
+.blue-text {color:#669acc;}
+.red {background-color: #92361d;}
+.red-text {color: #92361d;}
+.green {background-color:#757752;}
+.yellow {background-color:#efc211;}
+.tan {background-color:#ebcb92;}
+
+#TB_window {box-sizing:border-box; padding:20px;}
+#TB_window img#TB_Image {margin:0px !important;}
+#TB_closeWindow {height:0px !important; padding:0px !important;}
+#TB_caption {display: none;}
+
+.screen-reader-text {display: none;}

@@ -1,0 +1,23 @@
+/* Autocracy Admin CSS */
+
+.col-wrap {font-size:0;}
+.col-wrap * {box-sizing:border-box;}
+
+.col-wrap h1 {font-size:24px;}
+.col-wrap h2 {font-size:20px;}
+.col-wrap h3 {font-size:18px;}
+.col-wrap h4 {font-size:16px;}
+.col-wrap h5 {font-size:14px;}
+.col-wrap h6 {font-size:11px;}
+
+.col-wrap p {font-size:14px;}
+.col-wrap label {font-size: 14px; display: block;}
+.col-wrap input {font-size: 14px; padding:5px 10px;}
+.col-wrap textarea {font-size: 14px; padding:5px 10px; resize:none; width: 100%; min-height: 170px;}
+
+.column {display: inline-block; vertical-align:top; padding: 10px;}
+
+.full {width: 100%;}
+.two-thirds {width: 66.666%;}
+.half {width: 50%;}
+.third {width: 33.333%;}
